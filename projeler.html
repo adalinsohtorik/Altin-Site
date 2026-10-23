@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Altındal Yapı ve Proje Dış Tic. A.Ş. proje referansları. 1965'tan bugüne doğal taş ve mermer uygulamalarında üç nesil deneyim.">
+<meta name="theme-color" content="#F5EFE6">
+<title>Projeler | Altındal Yapı ve Proje</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --cream: #F5EFE6;
+  --gold: #B18A4A;
+  --light-gold: #D9BE8B;
+  --dark: #3C3329;
+  --text: #65594C;
+  --pale: #EDE4D7;
+  --white: #FFFFFF;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; scroll-padding-top: 120px; }
+body {
+  background: var(--cream);
+  color: var(--dark);
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+}
+a { color: inherit; text-decoration: none; }
+button { font: inherit; }
+
+/* HEADER */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  background: rgba(245,239,230,.96);
+  border-bottom: 1px solid rgba(177,138,74,.24);
+  backdrop-filter: blur(12px);
+}
+.header-inner {
+  width: min(1440px,100%);
+  min-height: 104px;
+  margin: auto;
+  padding: 16px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+}
+.brand { display: flex; flex-direction: column; flex-shrink: 0; line-height: 1.1; }
+.brand-name {
+  color: var(--dark);
+  font-family: "Cormorant Garamond",serif;
+  font-size: clamp(28px,3vw,39px);
+  font-weight: 600;
+  letter-spacing: .17em;
+}
+.brand-subtitle {
+  margin-top: 7px;
+  color: var(--gold);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: .12em;
+  white-space: nowrap;
+}
+.navigation { display: flex; align-items: center; gap: clamp(15px,2.4vw,34px); }
+.navigation > a {
+  color: var(--dark);
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: color .25s ease;
+}
+.navigation > a:hover, .navigation > a.current { color: var(--gold); }
+.languages {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding-left: 18px;
+  border-left: 1px solid rgba(60,51,41,.25);
+  white-space: nowrap;
+}
+.language-button {
+  padding: 5px 2px;
+  border: 0;
+  background: transparent;
+  color: #8A7D6D;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 600;
+}
+.language-button.active, .language-button:hover { color: var(--gold); }
+.language-divider { color: #B8A994; font-size: 11px; }
+
+/* HERO */
+.page-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 100px 8% 90px;
+  background: linear-gradient(115deg,rgba(60,51,41,.98),rgba(60,51,41,.91)),var(--dark);
+  color: var(--cream);
+}
+.page-hero::after {
+  position: absolute;
+  right: -100px;
+  bottom: -240px;
+  width: 520px;
+  height: 520px;
+  border: 1px solid rgba(217,190,139,.18);
+  border-radius: 50%;
+  content: "";
+  pointer-events: none;
+}
+.page-hero-inner { position: relative; z-index: 1; width: min(1120px,100%); margin: auto; }
+.eyebrow, .section-label {
+  margin-bottom: 20px;
+  color: var(--light-gold);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+}
+.page-hero h1 {
+  max-width: 800px;
+  margin-bottom: 22px;
+  font-family: "Cormorant Garamond",serif;
+  font-size: clamp(48px,7vw,82px);
+  font-weight: 400;
+  line-height: 1.02;
+}
+.page-hero p { max-width: 650px; color: rgba(245,239,230,.8); font-size: 14px; line-height: 2; }
+.gold-line { width: 65px; height: 2px; margin-top: 28px; background: var(--light-gold); }
+
+/* PROJECT LIST */
+.projects-section { padding: 85px 8% 75px; background: var(--cream); }
+.projects-inner { width: min(1120px,100%); margin: auto; }
+.intro { max-width: 760px; margin-bottom: 52px; }
+.section-label { margin-bottom: 14px; color: var(--gold); letter-spacing: .2em; }
+.intro h2 {
+  margin-bottom: 18px;
+  color: var(--dark);
+  font-family: "Cormorant Garamond",serif;
+  font-size: clamp(37px,4.7vw,57px);
+  font-weight: 500;
+  line-height: 1.1;
+}
+.intro p { color: var(--text); font-size: 13px; line-height: 2; }
+.project-list { border-top: 1px solid rgba(177,138,74,.42); }
+.project-group {
+  display: grid;
+  grid-template-columns: minmax(180px,.75fr) minmax(0,1.6fr);
+  gap: 40px;
+  padding: 32px 0;
+  border-bottom: 1px solid rgba(177,138,74,.32);
+}
+.project-client {
+  color: var(--dark);
+  font-family: "Cormorant Garamond",serif;
+  font-size: clamp(24px,2.6vw,32px);
+  font-weight: 600;
+  line-height: 1.2;
+}
+.project-number {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--gold);
+  font-family: "Manrope",sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .15em;
+}
+.project-details { padding-top: 2px; }
+.project-details ul { display: grid; gap: 10px; list-style: none; }
+.project-details li {
+  position: relative;
+  padding-left: 20px;
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.8;
+}
+.project-details li::before {
+  position: absolute;
+  top: .72em;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  background: var(--gold);
+  content: "";
+  transform: rotate(45deg);
+}
+.project-note { margin-top: 15px; color: var(--gold); font-size: 11px; font-weight: 600; }
+
+/* FOTOĞRAF SLAYTI */
+.project-gallery { padding: 72px 6% 85px; background: var(--pale); }
+.project-gallery-inner { width: min(1240px,100%); margin: auto; }
+.gallery-heading { margin-bottom: 32px; text-align: center; }
+.gallery-heading .section-label { margin-bottom: 12px; }
+.gallery-heading h2 {
+  color: var(--dark);
+  font-family: "Cormorant Garamond",serif;
+  font-size: clamp(35px,4.5vw,53px);
+  font-weight: 500;
+  line-height: 1.15;
+}
+.gallery-heading > p:last-child {
+  max-width: 570px;
+  margin: 14px auto 0;
+  color: var(--text);
+  font-size: 12px;
+  line-height: 1.9;
+}
+.gallery-slider {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(177,138,74,.35);
+  background: var(--cream);
+  box-shadow: 0 16px 45px rgba(60,51,41,.08);
+}
+.gallery-track { display: flex; transition: transform .6s ease; }
+.gallery-slide {
+  position: relative;
+  flex: 0 0 100%;
+  min-width: 0;
+  height: clamp(280px,52vw,610px);
+  overflow: hidden;
+  background: var(--pale);
+}
+.gallery-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.gallery-slide::after {
+  position: absolute;
+  inset: 35% 0 0;
+  background: linear-gradient(to bottom,transparent,rgba(48,40,32,.76));
+  content: "";
+  pointer-events: none;
+}
+.gallery-caption {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 48px 6% 28px;
+  color: var(--cream);
+}
+.gallery-caption span {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--light-gold);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+.gallery-caption h3 {
+  font-family: "Cormorant Garamond",serif;
+  font-size: clamp(26px,4vw,43px);
+  font-weight: 500;
+  line-height: 1.15;
+}
+.gallery-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  margin-top: 23px;
+}
+.gallery-arrow {
+  display: inline-flex;
+  width: 42px;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(177,138,74,.7);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--dark);
+  cursor: pointer;
+  font-size: 20px;
+  transition: background .25s ease,color .25s ease;
+}
+.gallery-arrow:hover { background: var(--gold); color: var(--white); }
+.gallery-dots { display: flex; align-items: center; justify-content: center; gap: 9px; }
+.gallery-dot {
+  width: 7px;
+  height: 7px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #CDBFA9;
+  cursor: pointer;
+  transition: background .25s ease,transform .25s ease;
+}
+.gallery-dot.active { background: var(--gold); transform: scale(1.35); }
+
+/* ALT VURGU */
+.project-statement { padding: 72px 8%; background: var(--cream); text-align: center; }
+.project-statement-inner { width: min(850px,100%); margin: auto; }
+.project-statement p {
+  color: var(--gold);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+.project-statement h2 {
+  margin-top: 16px;
+  color: var(--dark);
+  font-family: "Cormorant Garamond",serif;
+  font-size: clamp(32px,4.5vw,50px);
+  font-weight: 500;
+  line-height: 1.15;
+}
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  padding: 13px 23px;
+  border: 1px solid var(--gold);
+  color: var(--dark);
+  font-size: 11px;
+  font-weight: 700;
+  transition: background .25s ease,color .25s ease;
+}
+.back-link:hover { background: var(--gold); color: var(--white); }
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 22px 8%;
+  background: #302820;
+  color: rgba(245,239,230,.65);
+  font-size: 10px;
+}
+footer span:last-child { letter-spacing: .1em; }
+
+/* MOBİL */
+@media (max-width:900px) {
+  .header-inner { padding: 15px 4%; gap: 18px; }
+  .brand-name { font-size: 30px; }
+  .brand-subtitle { font-size: 8px; }
+  .navigation { gap: 14px; }
+  .navigation > a { font-size: 11px; }
+  .languages { padding-left: 12px; gap: 5px; }
+  .page-hero { padding: 80px 7%; }
+  .projects-section { padding: 70px 7% 60px; }
+  .project-group { gap: 28px; }
+}
+@media (max-width:640px) {
+  .header-inner { min-height: auto; padding: 13px 5%; flex-wrap: wrap; gap: 13px; }
+  .brand-name { font-size: 27px; }
+  .brand-subtitle { font-size: 7px; letter-spacing: .09em; }
+  .navigation {
+    width: 100%;
+    justify-content: space-between;
+    gap: 8px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(60,51,41,.12);
+  }
+  .navigation > a { font-size: 10px; }
+  .languages { padding-left: 9px; }
+  .language-button { font-size: 10px; }
+  .page-hero { padding: 65px 7% 70px; }
+  .page-hero h1 { font-size: clamp(43px,12vw,62px); }
+  .page-hero p { font-size: 13px; }
+  .projects-section { padding: 60px 7% 50px; }
+  .intro { margin-bottom: 35px; }
+  .project-group { grid-template-columns: 1fr; gap: 16px; padding: 26px 0; }
+  .project-client { font-size: 28px; }
+  .project-gallery { padding: 55px 5% 65px; }
+  .gallery-slide { height: 340px; }
+  .gallery-caption { padding: 40px 6% 22px; }
+  .gallery-controls { gap: 16px; }
+  .project-statement { padding: 55px 7%; }
+  footer { flex-direction: column; align-items: flex-start; padding: 22px 7%; }
+}
+@media (prefers-reduced-motion:reduce) {
+  html { scroll-behavior: auto; }
+  *,*::before,*::after { transition-duration: .01ms !important; }
+}
+</style>
+</head>
+
+<body>
+<header class="header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Altındal ana sayfa">
+      <span class="brand-name">ALTINDAL</span>
+      <span class="brand-subtitle" data-i18n="brandSubtitle">YAPI VE PROJE DIŞ TİC. A.Ş.</span>
+    </a>
+    <nav class="navigation" aria-label="Ana menü">
+      <a href="index.html" data-i18n="navHome">Ana Sayfa</a>
+      <a href="projeler.html" class="current" aria-current="page" data-i18n="navProjects">Projeler</a>
+      <a href="index.html#hakkimizda" data-i18n="navAbout">Hakkımızda</a>
+      <div class="languages" aria-label="Dil seçimi">
+        <button class="language-button active" type="button" data-lang="tr" aria-pressed="true">TR</button>
+        <span class="language-divider">|</span>
+        <button class="language-button" type="button" data-lang="en" aria-pressed="false">EN</button>
+        <span class="language-divider">|</span>
+        <button class="language-button" type="button" data-lang="ru" aria-pressed="false">RU</button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <p class="eyebrow" data-i18n="eyebrow">1965'TEN BUGÜNE · ÜÇ NESİL</p>
+      <h1 data-i18n="heroTitle">Projelerimiz</h1>
+      <p data-i18n="heroDescription">Farklı ölçeklerdeki projelerden edindiğimiz deneyim, doğal taş ve mermer uygulamalarındaki iş anlayışımızın temelini oluşturur.</p>
+      <div class="gold-line"></div>
+    </div>
+  </section>
+
+  <section class="projects-section">
+    <div class="projects-inner">
+      <div class="intro">
+        <p class="section-label" data-i18n="sectionLabel">Proje Referansları</p>
+        <h2 data-i18n="sectionTitle">Deneyim, detaylarda kendini gösterir.</h2>
+        <p data-i18n="sectionDescription">Katalogda yer alan proje ve iş referanslarımızı aşağıda bulabilirsiniz.</p>
+      </div>
+
+      <div class="project-list">
+        <article class="project-group">
+          <div class="project-client"><span class="project-number">01</span><span data-i18n="clientCet">ÇET Yapı</span></div>
+          <div class="project-details"><ul>
+            <li>TED Üsküdar Koleji</li><li>TED İskenderun Koleji</li><li>Beşiktaş GYO Koleji</li>
+            <li>Büyükçekmece Dükkan &amp; Ofis Projesi</li><li>Bakırköy Bahçeşehir Koleji</li>
+            <li>Kristal Şehir / Vega Okulları</li><li>Büyükçekmece Doğa Koleji</li>
+            <li>İzmir Müşerref Hepkon Ortaokulu</li><li>İzmir Müşerref Hepkon İlkokulu</li>
+            <li>Ankara İncek Okyanus Koleji</li><li>Başakşehir Doğa Koleji</li><li>Cevizlibağ Doğa Koleji</li>
+          </ul></div>
+        </article>
+
+        <article class="project-group">
+          <div class="project-client"><span class="project-number">02</span><span data-i18n="clientHasan">Hasanoğlu İnşaat</span></div>
+          <div class="project-details"><ul>
+            <li>Banu Evleri 1</li><li>Banu Evleri 2</li><li>Banu Evleri 3</li>
+            <li>Banu Evleri 4</li><li>Banu Evleri 5</li><li>KİPTAŞ Aydos Türk Evleri</li>
+            <li>KİPTAŞ Aydos Kanada Evleri</li>
+          </ul></div>
+        </article>
+
+        <article class="project-group">
+          <div class="project-client"><span class="project-number">03</span><span data-i18n="clientKuzu">Kuzu Grup &amp; Emlak Konut</span></div>
+          <div class="project-details"><ul>
+            <li data-i18n="projectFikirtepe">Fikirtepe Kentsel Dönüşüm Projesi</li>
+            <li data-i18n="projectUnits">2.354 konut ve 40 ticari ünite inşaatı</li>
+          </ul><p class="project-note" data-i18n="noteKuzu">Mermer, granit ve terrazzo uygulamaları</p></div>
+        </article>
+
+        <article class="project-group">
+          <div class="project-client"><span class="project-number">04</span><span data-i18n="clientMusiad">MÜSİAD</span></div>
+          <div class="project-details"><ul><li data-i18n="projectMusiad">MÜSİAD Projesi — 2022</li></ul></div>
+        </article>
+
+        <article class="project-group">
+          <div class="project-client"><span class="project-number">05</span><span data-i18n="clientBakirci">Bakırcı GYO</span></div>
+          <div class="project-details"><ul>
+            <li>Autogross — İstanbul / Bağcılar</li><li data-i18n="projectTopkapi">Topkapı Projesi</li>
+          </ul></div>
+        </article>
+
+        <article class="project-group">
+          <div class="project-client"><span class="project-number">06</span><span data-i18n="clientPublic">Diğer Kurumsal Projeler</span></div>
+          <div class="project-details"><ul>
+            <li>Merter İBB İGDAŞ — mermer uygulama projesi</li>
+            <li>Bulut Camii / Esenyurt — mermer ve granit uygulamaları</li>
+            <li>Atatürk Havalimanı / C Terminali Projesi</li>
+            <li>Çanakkale Şehitliği — mermer uygulama projesi</li>
+            <li>Siirt Şeref Büryan — mermer ve granit uygulamaları</li>
+            <li>Elit Yapı — Zeytinburnu Kentsel Dönüşüm Projesi</li>
+          </ul></div>
+        </article>
+
+        <article class="project-group">
+          <div class="project-client"><span class="project-number">07</span><span data-i18n="clientPalace">Topkapı Sarayı</span></div>
+          <div class="project-details"><ul>
+            <li data-i18n="projectTreasury">Kutsal Emanetler Odası</li>
+            <li data-i18n="projectLion">Aslan Bahçesi</li>
+            <li data-i18n="projectDining">Yemekhane bölümü</li>
+          </ul><p class="project-note" data-i18n="noteRestoration">Restorasyon çalışmaları</p></div>
+        </article>
+
+        <article class="project-group">
+          <div class="project-client"><span class="project-number">08</span><span data-i18n="clientCem">Cem Denizcilik</span></div>
+          <div class="project-details"><ul>
+            <li data-i18n="projectShipyard">Yalova Tersanesi</li><li data-i18n="projectVillas">Yalova Villaları</li>
+          </ul></div>
+        </article>
+
+        <article class="project-group">
+          <div class="project-client"><span class="project-number">09</span><span data-i18n="clientSepet">Sepetçiler Kasrı</span></div>
+          <div class="project-details"><ul><li data-i18n="projectSepet">Restorasyon ve muhtelif mermer işleri</li></ul></div>
+        </article>
+
+        <article class="project-group">
+          <div class="project-client"><span class="project-number">10</span><span data-i18n="clientAvrupa">Avrupa Konutları</span></div>
+          <div class="project-details"><ul>
+            <li data-i18n="projectCamli">Çamlıvadi özel daire projesi</li>
+            <li data-i18n="projectBookmatch">Bookmatch desenli tezgâh uygulaması</li>
+          </ul></div>
+        </article>
+
+        <article class="project-group">
+          <div class="project-client"><span class="project-number">11</span><span data-i18n="clientAlkent">Alkent 2000</span></div>
+          <div class="project-details"><ul><li data-i18n="projectPool">Özel villa havuz projesi</li></ul></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOTOĞRAF SLAYTI -->
+  <section class="project-gallery" aria-label="Proje fotoğrafları">
+    <div class="project-gallery-inner">
+      <div class="gallery-heading">
+        <p class="section-label" data-i18n="galleryLabel">Projelerimizden</p>
+        <h2 data-i18n="galleryTitle">Taşa işlenen deneyim.</h2>
+        <p data-i18n="galleryDescription">Farklı projelerden seçilmiş uygulamalarımızı keşfedin.</p>
+      </div>
+
+      <div class="gallery-slider" id="projectGallery">
+        <div class="gallery-track" id="galleryTrack">
+
+          <article class="gallery-slide">
+            <img src="images/images/proje-pdf-sayfa-06-foto-02.jpeg" alt="Fikirtepe projesinden fotoğraf" loading="lazy">
+            <div class="gallery-caption">
+              <span data-i18n="galleryProject">Proje referansı</span>
+              <h3>Fikirtepe Kentsel Dönüşüm</h3>
+            </div>
+          </article>
+
+          <article class="gallery-slide">
+            <img src="images/images/proje-pdf-sayfa-07-foto-02.jpeg" alt="TED İskenderun Koleji projesinden fotoğraf" loading="lazy">
+            <div class="gallery-caption"><span>ÇET Yapı</span><h3>TED İskenderun Koleji</h3></div>
+          </article>
+
+          <article class="gallery-slide">
+            <img src="images/images/proje-pdf-sayfa-08-foto-02.jpeg" alt="TED Üsküdar Koleji projesinden fotoğraf" loading="lazy">
+            <div class="gallery-caption"><span>ÇET Yapı</span><h3>TED Üsküdar Koleji</h3></div>
+          </article>
+
+          <article class="gallery-slide">
+            <img src="images/images/proje-pdf-sayfa-11-foto-02.jpeg" alt="KİPTAŞ Aydos Türk Evleri projesinden fotoğraf" loading="lazy">
+            <div class="gallery-caption"><span>Hasanoğlu İnşaat</span><h3>KİPTAŞ Aydos Türk Evleri</h3></div>
+          </article>
+
+          <article class="gallery-slide">
+            <img src="images/images/proje-pdf-sayfa-12-foto-02.jpeg" alt="KİPTAŞ Aydos Kanada Evleri projesinden fotoğraf" loading="lazy">
+            <div class="gallery-caption"><span>Hasanoğlu İnşaat</span><h3>KİPTAŞ Aydos Kanada Evleri</h3></div>
+          </article>
+
+          <article class="gallery-slide">
+            <img src="images/images/proje-pdf-sayfa-06-foto-03.jpeg" alt="Kuzu Grup Fikirtepe Kentsel Dönüşüm Projesi" loading="lazy">
+            <div class="gallery-caption">
+              <span data-i18n="galleryProject">Proje referansı</span>
+              <h3>Kuzu Grup / Fikirtepe</h3>
+            </div>
+          </article>
+
+          <article class="gallery-slide">
+            <img src="images/images/proje-pdf-sayfa-15-foto-02.jpeg" alt="Avrupa Konutları projesinden fotoğraf" loading="lazy">
+            <div class="gallery-caption"><span>Avrupa Konutları</span><h3>Çamlıvadi</h3></div>
+          </article>
+
+          <article class="gallery-slide">
+            <img src="images/images/proje-pdf-sayfa-16-foto-02.jpeg" alt="Özel villa havuz uygulamasından fotoğraf" loading="lazy">
+            <div class="gallery-caption"><span>Alkent 2000</span><h3 data-i18n="projectPool">Özel villa havuz projesi</h3></div>
+          </article>
+
+        </div>
+      </div>
+
+      <div class="gallery-controls">
+        <button class="gallery-arrow" id="galleryPrev" type="button" aria-label="Önceki fotoğraf">←</button>
+        <div class="gallery-dots" id="galleryDots" aria-label="Fotoğraf seçimi"></div>
+        <button class="gallery-arrow" id="galleryNext" type="button" aria-label="Sonraki fotoğraf">→</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-statement">
+    <div class="project-statement-inner">
+      <p data-i18n="statementEyebrow">1965'TEN BUGÜNE · ÜÇ NESİL</p>
+      <h2 data-i18n="statementTitle">Geçmişten gelen deneyim, geleceğin projelerine taşınır.</h2>
+      <a class="back-link" href="index.html"><span aria-hidden="true">←</span><span data-i18n="backHome">Ana sayfaya dön</span></a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <span>© 2026 Altındal Yapı ve Proje Dış Tic. A.Ş.</span>
+  <span data-i18n="footerText">1965'TEN BUGÜNE · ÜÇ NESİL</span>
+</footer>
+
+<script>
+const translations = {
+  tr: {
+    pageTitle:"Projeler | Altındal Yapı ve Proje",
+    brandSubtitle:"YAPI VE PROJE DIŞ TİC. A.Ş.",navHome:"Ana Sayfa",navProjects:"Projeler",navAbout:"Hakkımızda",
+    eyebrow:"1965'TEN BUGÜNE · ÜÇ NESİL",heroTitle:"Projelerimiz",
+    heroDescription:"Farklı ölçeklerdeki projelerden edindiğimiz deneyim, doğal taş ve mermer uygulamalarındaki iş anlayışımızın temelini oluşturur.",
+    sectionLabel:"Proje Referansları",sectionTitle:"Deneyim, detaylarda kendini gösterir.",
+    sectionDescription:"Katalogda yer alan proje ve iş referanslarımızı aşağıda bulabilirsiniz. Projelerin durumları netleştirildiğinde tamamlanan ve devam eden işler ayrı bölümlerde düzenlenecektir.",
+    clientCet:"ÇET Yapı",clientHasan:"Hasanoğlu İnşaat",clientKuzu:"Kuzu Grup & Emlak Konut",
+    projectFikirtepe:"Fikirtepe Kentsel Dönüşüm Projesi",projectUnits:"2.354 konut ve 40 ticari ünite inşaatı",
+    noteKuzu:"Mermer, granit ve terrazzo uygulamaları",clientMusiad:"MÜSİAD",projectMusiad:"MÜSİAD Projesi — 2022",
+    clientBakirci:"Bakırcı GYO",projectTopkapi:"Topkapı Projesi",clientPublic:"Diğer Kurumsal Projeler",
+    clientPalace:"Topkapı Sarayı",projectTreasury:"Kutsal Emanetler Odası",projectLion:"Aslan Bahçesi",
+    projectDining:"Yemekhane bölümü",noteRestoration:"Restorasyon çalışmaları",clientCem:"Cem Denizcilik",
+    projectShipyard:"Yalova Tersanesi",projectVillas:"Yalova Villaları",clientSepet:"Sepetçiler Kasrı",
+    projectSepet:"Restorasyon ve muhtelif mermer işleri",clientAvrupa:"Avrupa Konutları",
+    projectCamli:"Çamlıvadi özel daire projesi",projectBookmatch:"Bookmatch desenli tezgâh uygulaması",
+    clientAlkent:"Alkent 2000",projectPool:"Özel villa havuz projesi",
+    galleryLabel:"Projelerimizden",galleryTitle:"Taşa işlenen deneyim.",
+    galleryDescription:"Farklı projelerden seçilmiş uygulamalarımızı keşfedin.",galleryProject:"Proje referansı",
+    statementEyebrow:"1965'TEN BUGÜNE · ÜÇ NESİL",
+    statementTitle:"Geçmişten gelen deneyim, geleceğin projelerine taşınır.",
+    backHome:"Ana sayfaya dön",footerText:"1965'TEN BUGÜNE · ÜÇ NESİL"
+  },
+  en: {
+    pageTitle:"Projects | Altındal Construction and Project",
+    brandSubtitle:"CONSTRUCTION & PROJECT FOREIGN TRADE INC.",navHome:"Home",navProjects:"Projects",navAbout:"About Us",
+    eyebrow:"SINCE 1965 · THREE GENERATIONS",heroTitle:"Our Projects",
+    heroDescription:"Experience gained across projects of different scales shapes our approach to natural stone and marble applications.",
+    sectionLabel:"Project References",sectionTitle:"Experience expressed through detail.",
+    sectionDescription:"Below are the project references listed in the company catalogue. Project statuses will be organised separately once confirmed.",
+    clientCet:"ÇET Yapı",clientHasan:"Hasanoğlu Construction",clientKuzu:"Kuzu Group & Emlak Konut",
+    projectFikirtepe:"Fikirtepe Urban Transformation Project",projectUnits:"Construction of 2,354 residential units and 40 commercial units",
+    noteKuzu:"Marble, granite and terrazzo applications",clientMusiad:"MÜSİAD",projectMusiad:"MÜSİAD Project — 2022",
+    clientBakirci:"Bakırcı GYO",projectTopkapi:"Topkapı Project",clientPublic:"Other Institutional Projects",
+    clientPalace:"Topkapı Palace",projectTreasury:"Chamber of the Holy Relics",projectLion:"Lion Garden",
+    projectDining:"Dining hall section",noteRestoration:"Restoration works",clientCem:"Cem Denizcilik",
+    projectShipyard:"Yalova Shipyard",projectVillas:"Yalova Villas",clientSepet:"Sepetçiler Pavilion",
+    projectSepet:"Restoration and various marble works",clientAvrupa:"Avrupa Konutları",
+    projectCamli:"Çamlıvadi private apartment project",projectBookmatch:"Bookmatched-pattern countertop application",
+    clientAlkent:"Alkent 2000",projectPool:"Private villa swimming pool project",
+    galleryLabel:"Selected Projects",galleryTitle:"Experience carved in stone.",
+    galleryDescription:"Discover selected applications from our projects.",galleryProject:"Project reference",
+    statementEyebrow:"SINCE 1965 · THREE GENERATIONS",
+    statementTitle:"Experience from the past, carried into the projects of the future.",
+    backHome:"Back to home",footerText:"SINCE 1965 · THREE GENERATIONS"
+  },
+  ru: {
+    pageTitle:"Проекты | Altındal Yapı ve Proje",
+    brandSubtitle:"СТРОИТЕЛЬСТВО И ПРОЕКТЫ · ВНЕШНЯЯ ТОРГОВЛЯ",navHome:"Главная",navProjects:"Проекты",navAbout:"О компании",
+    eyebrow:"С 1965 ГОДА · ТРИ ПОКОЛЕНИЯ",heroTitle:"Наши проекты",
+    heroDescription:"Опыт, полученный в проектах разного масштаба, формирует наш подход к работе с натуральным камнем и мрамором.",
+    sectionLabel:"Наши проекты",sectionTitle:"Опыт проявляется в деталях.",
+    sectionDescription:"Ниже представлены проекты из каталога компании. Статусы будут разделены после уточнения.",
+    clientCet:"ÇET Yapı",clientHasan:"Hasanoğlu İnşaat",clientKuzu:"Kuzu Group & Emlak Konut",
+    projectFikirtepe:"Проект городской реновации Фикиртепе",projectUnits:"Строительство 2 354 жилых помещений и 40 коммерческих объектов",
+    noteKuzu:"Работы с мрамором, гранитом и терраццо",clientMusiad:"MÜSİAD",projectMusiad:"Проект MÜSİAD — 2022",
+    clientBakirci:"Bakırcı GYO",projectTopkapi:"Проект Топкапы",clientPublic:"Другие корпоративные проекты",
+    clientPalace:"Дворец Топкапы",projectTreasury:"Зал Священных реликвий",projectLion:"Львиный сад",
+    projectDining:"Столовая",noteRestoration:"Реставрационные работы",clientCem:"Cem Denizcilik",
+    projectShipyard:"Верфь в Ялове",projectVillas:"Виллы в Ялове",clientSepet:"Павильон Сепетчилер",
+    projectSepet:"Реставрация и различные работы с мрамором",clientAvrupa:"Avrupa Konutları",
+    projectCamli:"Проект частных апартаментов Чамлывади",projectBookmatch:"Столешница с рисунком bookmatch",
+    clientAlkent:"Alkent 2000",projectPool:"Бассейн на территории частной виллы",
+    galleryLabel:"Из наших проектов",galleryTitle:"Опыт, воплощённый в камне.",
+    galleryDescription:"Посмотрите избранные работы из наших проектов.",galleryProject:"Проект",
+    statementEyebrow:"С 1965 ГОДА · ТРИ ПОКОЛЕНИЯ",
+    statementTitle:"Опыт прошлого становится основой проектов будущего.",
+    backHome:"На главную",footerText:"С 1965 ГОДА · ТРИ ПОКОЛЕНИЯ"
+  }
+};
+
+function setLanguage(language) {
+  const dictionary = translations[language];
+  if (!dictionary) return;
+
+  document.documentElement.lang = language;
+  document.title = dictionary.pageTitle;
+
+  document.querySelectorAll("[data-i18n]").forEach(element => {
+    const key = element.dataset.i18n;
+    if (dictionary[key] !== undefined) {
+      element.textContent = dictionary[key];
+    }
+  });
+
+  document.querySelectorAll("[data-lang]").forEach(button => {
+    const active = button.dataset.lang === language;
+    button.classList.toggle("active", active);
+    button.setAttribute("aria-pressed", String(active));
+  });
+}
+
+document.querySelectorAll("[data-lang]").forEach(button => {
+  button.addEventListener("click", () => setLanguage(button.dataset.lang));
+});
+
+/* FOTOĞRAF SLAYTI KONTROLLERİ */
+const track = document.getElementById("galleryTrack");
+const slides = Array.from(track.querySelectorAll(".gallery-slide"));
+const dotsContainer = document.getElementById("galleryDots");
+const previousButton = document.getElementById("galleryPrev");
+const nextButton = document.getElementById("galleryNext");
+let currentSlide = 0;
+
+slides.forEach((slide, index) => {
+  const dot = document.createElement("button");
+  dot.type = "button";
+  dot.className = "gallery-dot" + (index === 0 ? " active" : "");
+  dot.setAttribute("aria-label", `Fotoğraf ${index + 1}`);
+  dot.addEventListener("click", () => showSlide(index));
+  dotsContainer.appendChild(dot);
+});
+
+const dots = Array.from(dotsContainer.querySelectorAll(".gallery-dot"));
+
+function showSlide(index) {
+  currentSlide = (index + slides.length) % slides.length;
+  track.style.transform = `translateX(-${currentSlide * 100}%)`;
+
+  dots.forEach((dot, dotIndex) => {
+    dot.classList.toggle("active", dotIndex === currentSlide);
+    dot.setAttribute("aria-current", dotIndex === currentSlide ? "true" : "false");
+  });
+}
+
+previousButton.addEventListener("click", () => showSlide(currentSlide - 1));
+nextButton.addEventListener("click", () => showSlide(currentSlide + 1));
+
+/* Klavye ile kullanım */
+document.addEventListener("keydown", event => {
+  if (event.key === "ArrowLeft") showSlide(currentSlide - 1);
+  if (event.key === "ArrowRight") showSlide(currentSlide + 1);
+});
+</script>
+</body>
+</html>
