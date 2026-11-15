@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -738,7 +737,8 @@
         uygulamalarımız hakkında bizimle iletişime geçebilirsiniz.
       </p>
 
-     
+      <div class="contact-grid">
+        <div class="contact-details">
           <div>
             <p class="contact-label" data-i18n="addressLabel">Ofis Adresi</p>
             <p class="contact-note" data-i18n="officeAddress">
@@ -746,56 +746,39 @@
               İç Kapı No: 376, Ataşehir / İstanbul
             </p>
           </div>
-
-    
         </div>
 
         <form class="contact-form" id="contactForm">
+          <input type="hidden" name="access_key" value="20c53b88-f505-4ea6-934a-7c8352e3837a">
+          <input type="hidden" name="subject" value="Yeni iletişim formu - Altındal Yapı">
+          <input type="hidden" name="from_name" value="Altındal Yapı Web Sitesi">
+
           <div>
             <label for="visitorName" data-i18n="nameLabel">Adınız Soyadınız</label>
-            <input
-              id="visitorName"
-              name="name"
-              type="text"
-              autocomplete="name"
-              required
-              data-i18n-placeholder="namePlaceholder"
-              placeholder="Adınızı yazın"
-            >
+            <input id="visitorName" name="name" type="text" autocomplete="name"
+              required data-i18n-placeholder="namePlaceholder" placeholder="Adınızı yazın">
           </div>
 
           <div>
             <label for="visitorEmail" data-i18n="emailLabel">E-posta Adresiniz</label>
-            <input
-              id="visitorEmail"
-              name="email"
-              type="email"
-              autocomplete="email"
-              required
-              data-i18n-placeholder="emailPlaceholder"
-              placeholder="ornek@eposta.com"
-            >
+            <input id="visitorEmail" name="email" type="email" autocomplete="email"
+              required data-i18n-placeholder="emailPlaceholder" placeholder="ornek@eposta.com">
           </div>
 
           <div>
             <label for="visitorMessage" data-i18n="messageLabel">Mesajınız</label>
-            <textarea
-              id="visitorMessage"
-              name="message"
-              required
+            <textarea id="visitorMessage" name="message" required
               data-i18n-placeholder="messagePlaceholder"
-              placeholder="Size nasıl yardımcı olabiliriz?"
-            ></textarea>
+              placeholder="Size nasıl yardımcı olabiliriz?"></textarea>
           </div>
 
           <button class="solid-button" type="submit">
-            <span data-i18n="sendButton">Mesajınızı hazırlayın</span>
+            <span data-i18n="sendButton">Mesajınızı gönderin</span>
             <span aria-hidden="true">↗</span>
           </button>
 
-          <p class="form-note" data-i18n="formNote">
-            Bu form henüz e-posta gönderimine bağlanmadı. Gönderim özelliği,
-            şirketin e-posta adresi belirlendiğinde etkinleştirilecektir.
+          <p class="form-note" id="formStatus" role="status" aria-live="polite" data-i18n="formNote">
+            Mesajınız bu form aracılığıyla şirketimize iletilecektir.
           </p>
         </form>
       </div>
@@ -837,16 +820,14 @@
         contactDescription: "Projeniz, iş birliği talepleriniz veya mermer ve doğal taş uygulamalarımız hakkında bizimle iletişime geçebilirsiniz.",
         addressLabel: "Ofis Adresi",
         officeAddress: "Atatürk Mah. Ertuğrul Gazi Sok. Metropol İstanbul C1 Blok No: 2B, İç Kapı No: 376, Ataşehir / İstanbul",
-        whatsappButton: "WhatsApp'tan bize ulaşın",
-        contactNote: "Mesajınızı e-posta yoluyla iletebileceğiniz iletişim formunu yakında etkinleştireceğiz.",
         nameLabel: "Adınız Soyadınız",
         namePlaceholder: "Adınızı yazın",
         emailLabel: "E-posta Adresiniz",
         emailPlaceholder: "ornek@eposta.com",
         messageLabel: "Mesajınız",
         messagePlaceholder: "Size nasıl yardımcı olabiliriz?",
-        sendButton: "Mesajınızı hazırlayın",
-        formNote: "Bu form henüz e-posta gönderimine bağlanmadı. Gönderim özelliği, şirketin e-posta adresi belirlendiğinde etkinleştirilecektir.",
+        sendButton: "Mesajınızı gönderin",
+        formNote: "Mesajınız bu form aracılığıyla şirketimize iletilecektir.",
         footerText: "1965'TEN BUGÜNE · ÜÇ NESİL"
       },
 
@@ -878,16 +859,14 @@
         contactDescription: "Contact us about your project, collaboration opportunities, or our marble and natural stone applications.",
         addressLabel: "Office Address",
         officeAddress: "Atatürk Mah. Ertuğrul Gazi Sok. Metropol İstanbul C1 Blok No: 2B, İç Kapı No: 376, Ataşehir / İstanbul",
-        whatsappButton: "Contact us on WhatsApp",
-        contactNote: "Our contact form will be enabled soon so you can send your enquiry by email.",
         nameLabel: "Full Name",
         namePlaceholder: "Enter your name",
         emailLabel: "Your Email Address",
         emailPlaceholder: "name@example.com",
         messageLabel: "Your Message",
         messagePlaceholder: "How can we help you?",
-        sendButton: "Prepare your message",
-        formNote: "This form is not yet connected to email delivery. Submission will be enabled once the company email address is confirmed.",
+        sendButton: "Send your message",
+        formNote: "Your message will be sent directly to our company through this form.",
         footerText: "SINCE 1965 · THREE GENERATIONS"
       },
 
@@ -919,16 +898,14 @@
         contactDescription: "Вы можете обратиться к нам по вопросам вашего проекта, сотрудничества, а также работ с мрамором и натуральным камнем.",
         addressLabel: "Адрес офиса",
         officeAddress: "Atatürk Mah. Ertuğrul Gazi Sok. Metropol İstanbul C1 Blok No: 2B, İç Kapı No: 376, Ataşehir / İstanbul",
-        whatsappButton: "Связаться через WhatsApp",
-        contactNote: "Скоро мы подключим форму, чтобы вы могли отправлять свои запросы по электронной почте.",
         nameLabel: "Имя и фамилия",
         namePlaceholder: "Введите ваше имя",
         emailLabel: "Ваш адрес электронной почты",
         emailPlaceholder: "name@example.com",
         messageLabel: "Ваше сообщение",
         messagePlaceholder: "Чем мы можем вам помочь?",
-        sendButton: "Подготовить сообщение",
-        formNote: "Форма пока не подключена к отправке электронной почты. Отправка будет настроена после подтверждения адреса компании.",
+        sendButton: "Отправить сообщение",
+        formNote: "Ваше сообщение будет отправлено напрямую в нашу компанию через эту форму.",
         footerText: "С 1965 ГОДА · ТРИ ПОКОЛЕНИЯ"
       }
     };
@@ -970,18 +947,62 @@
       });
     });
 
-    document.getElementById("contactForm").addEventListener("submit", (event) => {
+    const contactForm = document.getElementById("contactForm");
+    const formStatus = document.getElementById("formStatus");
+    const submitButton = contactForm.querySelector('button[type="submit"]');
+
+    contactForm.addEventListener("submit", async (event) => {
       event.preventDefault();
 
       const language = document.documentElement.lang;
       const messages = {
-        tr: "İletişim formu henüz e-posta gönderimine bağlanmadı. Bu özellik, şirketin e-posta adresi belirlendiğinde etkinleştirilecek.",
-        en: "The contact form is not yet connected to email delivery. It will be enabled once the company's email address is confirmed.",
-        ru: "Форма пока не подключена к отправке электронной почты. Она будет активирована после подтверждения адреса компании."
+        tr: {
+          sending: "Mesajınız gönderiliyor...",
+          success: "Mesajınız başarıyla gönderildi. Bizimle iletişime geçtiğiniz için teşekkür ederiz.",
+          error: "Mesajınız şu anda gönderilemedi. Lütfen daha sonra tekrar deneyin."
+        },
+        en: {
+          sending: "Sending your message...",
+          success: "Your message has been sent successfully. Thank you for contacting us.",
+          error: "Your message could not be sent right now. Please try again later."
+        },
+        ru: {
+          sending: "Ваше сообщение отправляется...",
+          success: "Ваше сообщение успешно отправлено. Спасибо, что связались с нами.",
+          error: "Сейчас не удалось отправить сообщение. Пожалуйста, попробуйте позже."
+        }
       };
 
-      alert(messages[language] || messages.tr);
+      const text = messages[language] || messages.tr;
+      const buttonLabel = submitButton.querySelector("[data-i18n='sendButton']");
+      const originalButtonLabel = (translations[language] || translations.tr).sendButton;
+
+      formStatus.textContent = text.sending;
+      submitButton.disabled = true;
+      buttonLabel.textContent = text.sending;
+
+      try {
+        const response = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          body: new FormData(contactForm)
+        });
+
+        const result = await response.json();
+
+        if (response.ok && result.success) {
+          formStatus.textContent = text.success;
+          contactForm.reset();
+        } else {
+          formStatus.textContent = text.error;
+        }
+      } catch (error) {
+        formStatus.textContent = text.error;
+      } finally {
+        submitButton.disabled = false;
+        buttonLabel.textContent = originalButtonLabel;
+      }
     });
+
   </script>
 </body>
 </html>
