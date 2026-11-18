@@ -1,0 +1,770 @@
+{
+  "applications": [
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/SAHARA NOIR/1.jpeg",
+      "name": "1",
+      "group": "SAHARA NOIR"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/SAHARA NOIR/1.jpg",
+      "name": "1",
+      "group": "SAHARA NOIR"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/SAHARA NOIR/2.jpg",
+      "name": "2",
+      "group": "SAHARA NOIR"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/PRECIOUS SODALITE/1.jpg",
+      "name": "1",
+      "group": "PRECIOUS SODALITE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/PRECIOUS SODALITE/2.jpg",
+      "name": "2",
+      "group": "PRECIOUS SODALITE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/PRECIOUS SODALITE/3.jpg",
+      "name": "3",
+      "group": "PRECIOUS SODALITE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA MAGNIFICO/1.jpg",
+      "name": "1",
+      "group": "CALACATTA MAGNIFICO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA MAGNIFICO/2.jpg",
+      "name": "2",
+      "group": "CALACATTA MAGNIFICO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA MAGNIFICO/3.jpg",
+      "name": "3",
+      "group": "CALACATTA MAGNIFICO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA MAGNIFICO/4.jpg",
+      "name": "4",
+      "group": "CALACATTA MAGNIFICO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA MAGNIFICO/5.jpg",
+      "name": "5",
+      "group": "CALACATTA MAGNIFICO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/VERDE FRANCE/1.jpg",
+      "name": "1",
+      "group": "VERDE FRANCE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/VERDE FRANCE/2.jpg",
+      "name": "2",
+      "group": "VERDE FRANCE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/VERDE FRANCE/3.jpg",
+      "name": "3",
+      "group": "VERDE FRANCE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/VERDE FRANCE/4.jpg",
+      "name": "4",
+      "group": "VERDE FRANCE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/VERDE FRANCE/5.jpg",
+      "name": "5",
+      "group": "VERDE FRANCE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/VERDE FRANCE/6.jpg",
+      "name": "6",
+      "group": "VERDE FRANCE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CLASSIC STATUARIO/1.jpg",
+      "name": "1",
+      "group": "CLASSIC STATUARIO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CLASSIC STATUARIO/2.jpg",
+      "name": "2",
+      "group": "CLASSIC STATUARIO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CLASSIC STATUARIO/3.jpg",
+      "name": "3",
+      "group": "CLASSIC STATUARIO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CLASSIC STATUARIO/4.jpg",
+      "name": "4",
+      "group": "CLASSIC STATUARIO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CLASSIC STATUARIO/5.jpg",
+      "name": "5",
+      "group": "CLASSIC STATUARIO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CLASSIC STATUARIO/6.jpg",
+      "name": "6",
+      "group": "CLASSIC STATUARIO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CLASSIC STATUARIO/7.jpg",
+      "name": "7",
+      "group": "CLASSIC STATUARIO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA LINCOLN/1.jpg",
+      "name": "1",
+      "group": "CALACATTA LINCOLN"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA LINCOLN/2.jpg",
+      "name": "2",
+      "group": "CALACATTA LINCOLN"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA LINCOLN/3.jpg",
+      "name": "3",
+      "group": "CALACATTA LINCOLN"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA LINCOLN/4.jpg",
+      "name": "4",
+      "group": "CALACATTA LINCOLN"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA LINCOLN/5.jpg",
+      "name": "5",
+      "group": "CALACATTA LINCOLN"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/RENOIR/1.jpg",
+      "name": "1",
+      "group": "RENOIR"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/RENOIR/2.jpg",
+      "name": "2",
+      "group": "RENOIR"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/RENOIR/3.jpg",
+      "name": "3",
+      "group": "RENOIR"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/OCEAN BLUE/1.jpg",
+      "name": "1",
+      "group": "OCEAN BLUE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/OCEAN BLUE/2.jpg",
+      "name": "2",
+      "group": "OCEAN BLUE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CRYSTAL AMBER/1.jpg",
+      "name": "1",
+      "group": "CRYSTAL AMBER"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CRYSTAL AMBER/2.jpg",
+      "name": "2",
+      "group": "CRYSTAL AMBER"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CRYSTAL AMBER/3.jpg",
+      "name": "3",
+      "group": "CRYSTAL AMBER"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/PIETRA GREY/1.jpeg",
+      "name": "1",
+      "group": "PIETRA GREY"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/PIETRA GREY/2.jpeg",
+      "name": "2",
+      "group": "PIETRA GREY"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/PIETRA GREY/3.jpeg",
+      "name": "3",
+      "group": "PIETRA GREY"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/PIETRA GREY/4.jpg",
+      "name": "4",
+      "group": "PIETRA GREY"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/PEACOCK/PEACOCK 2.jpg",
+      "name": "PEACOCK 2",
+      "group": "PEACOCK"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/PEACOCK/PEACOCK 3.jpg",
+      "name": "PEACOCK 3",
+      "group": "PEACOCK"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/PEACOCK/PEACOCK 4.jpg",
+      "name": "PEACOCK 4",
+      "group": "PEACOCK"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/PEACOCK/PEACOCK 5.jpg",
+      "name": "PEACOCK 5",
+      "group": "PEACOCK"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/PEACOCK/PEACOCK.jpg",
+      "name": "PEACOCK",
+      "group": "PEACOCK"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/TUNDRA SELECT/1.jpg",
+      "name": "1",
+      "group": "TUNDRA SELECT"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/TUNDRA SELECT/2.jpg",
+      "name": "2",
+      "group": "TUNDRA SELECT"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/TUNDRA SELECT/3.jpg",
+      "name": "3",
+      "group": "TUNDRA SELECT"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/ATLANTIS GREY/ATLANTIS GREY 2.jpg",
+      "name": "ATLANTIS GREY 2",
+      "group": "ATLANTIS GREY"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/ATLANTIS GREY/ATLANTIS GREY 3.jpg",
+      "name": "ATLANTIS GREY 3",
+      "group": "ATLANTIS GREY"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/ATLANTIS GREY/ATLANTIS GREY 4.jpg",
+      "name": "ATLANTIS GREY 4",
+      "group": "ATLANTIS GREY"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/ATLANTIS GREY/ATLANTIS GREY 5.jpg",
+      "name": "ATLANTIS GREY 5",
+      "group": "ATLANTIS GREY"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/ATLANTIS GREY/ATLANTIS GREY 6.jpg",
+      "name": "ATLANTIS GREY 6",
+      "group": "ATLANTIS GREY"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/ATLANTIS GREY/ATLANTIS GREY.jpg",
+      "name": "ATLANTIS GREY",
+      "group": "ATLANTIS GREY"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA HERMITAGE/CALACATTA HERMITAGE 2.jpg",
+      "name": "CALACATTA HERMITAGE 2",
+      "group": "CALACATTA HERMITAGE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA HERMITAGE/CALACATTA HERMITAGE 3.jpg",
+      "name": "CALACATTA HERMITAGE 3",
+      "group": "CALACATTA HERMITAGE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA HERMITAGE/CALACATTA HERMITAGE 4.jpg",
+      "name": "CALACATTA HERMITAGE 4",
+      "group": "CALACATTA HERMITAGE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA HERMITAGE/CALACATTA HERMITAGE 5.jpg",
+      "name": "CALACATTA HERMITAGE 5",
+      "group": "CALACATTA HERMITAGE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA HERMITAGE/CALACATTA HERMITAGE 6.jpg",
+      "name": "CALACATTA HERMITAGE 6",
+      "group": "CALACATTA HERMITAGE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA HERMITAGE/CALACATTA HERMITAGE 7.jpg",
+      "name": "CALACATTA HERMITAGE 7",
+      "group": "CALACATTA HERMITAGE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA HERMITAGE/CALACATTA HERMITAGE 8.jpg",
+      "name": "CALACATTA HERMITAGE 8",
+      "group": "CALACATTA HERMITAGE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA HERMITAGE/CALACATTA HERMITAGE TAŞ GÖRSELİ.jpg",
+      "name": "CALACATTA HERMITAGE TAŞ GÖRSELİ",
+      "group": "CALACATTA HERMITAGE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA HERMITAGE/CALACATTA HERMITAGE.jpg",
+      "name": "CALACATTA HERMITAGE",
+      "group": "CALACATTA HERMITAGE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA ORO/1.jpg",
+      "name": "1",
+      "group": "CALACATTA ORO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA ORO/2.jpg",
+      "name": "2",
+      "group": "CALACATTA ORO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CALACATTA ORO/3.jpg",
+      "name": "3",
+      "group": "CALACATTA ORO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/PANDA WHITE/PANDA WHITE 2.jpg",
+      "name": "PANDA WHITE 2",
+      "group": "PANDA WHITE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/PANDA WHITE/PANDA WHITE 3.jpg",
+      "name": "PANDA WHITE 3",
+      "group": "PANDA WHITE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/PANDA WHITE/PANDA WHITE 4.jpg",
+      "name": "PANDA WHITE 4",
+      "group": "PANDA WHITE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/PANDA WHITE/PANDA WHITE 5.jpg",
+      "name": "PANDA WHITE 5",
+      "group": "PANDA WHITE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/PANDA WHITE/PANDA WHITE 6.jpg",
+      "name": "PANDA WHITE 6",
+      "group": "PANDA WHITE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/PANDA WHITE/PANDA WHITE.jpg",
+      "name": "PANDA WHITE",
+      "group": "PANDA WHITE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/CRYSTAL ICE/1.jpg",
+      "name": "1",
+      "group": "CRYSTAL ICE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/MAGELLANO/Magellano 1.jpg",
+      "name": "Magellano 1",
+      "group": "MAGELLANO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/MAGELLANO/Magellano 2.jpg",
+      "name": "Magellano 2",
+      "group": "MAGELLANO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/MAGELLANO/Magellano 3.jpg",
+      "name": "Magellano 3",
+      "group": "MAGELLANO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/MAGELLANO/Magellano 4.jpg",
+      "name": "Magellano 4",
+      "group": "MAGELLANO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/MAGELLANO/Magellano 5.jpg",
+      "name": "Magellano 5",
+      "group": "MAGELLANO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/MAGELLANO/Magellano.jpg",
+      "name": "Magellano",
+      "group": "MAGELLANO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/EXTRA STATUARIO/1.jpg",
+      "name": "1",
+      "group": "EXTRA STATUARIO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/EXTRA STATUARIO/2.jpg",
+      "name": "2",
+      "group": "EXTRA STATUARIO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/EXTRA STATUARIO/3.jpg",
+      "name": "3",
+      "group": "EXTRA STATUARIO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/EXTRA STATUARIO/4.jpg",
+      "name": "4",
+      "group": "EXTRA STATUARIO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/OROBICO LUXE/OROBICO LUXE 2.jpg",
+      "name": "OROBICO LUXE 2",
+      "group": "OROBICO LUXE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Uygulama Görselleri/OROBICO LUXE/OROBICO LUXE.jpg",
+      "name": "OROBICO LUXE",
+      "group": "OROBICO LUXE"
+    }
+  ],
+  "infinity": [
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Absolute Black.jpg",
+      "name": "Absolute Black"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Absolute White.jpg",
+      "name": "Absolute White"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Andromeda.jpg",
+      "name": "Andromeda"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Arabescato Diva.jpg",
+      "name": "Arabescato Diva"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Atlantis Grey.jpg",
+      "name": "Atlantis Grey"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Buxy Select.jpg",
+      "name": "Buxy Select"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Calacatta Brasile.jpg",
+      "name": "Calacatta Brasile"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Calacatta Glory.jpg",
+      "name": "Calacatta Glory"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Calacatta Hermitage.jpg",
+      "name": "Calacatta Hermitage"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Calacatta Magnifico.jpg",
+      "name": "Calacatta Magnifico"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Calacatta Oro.jpg",
+      "name": "Calacatta Oro"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Calacatta Viola.jpg",
+      "name": "Calacatta Viola"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Cammeo.jpg",
+      "name": "Cammeo"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Ceppo Romano.jpg",
+      "name": "Ceppo Romano"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Chianca Di Ostuni.jpg",
+      "name": "Chianca Di Ostuni"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Classic Statuario.jpg",
+      "name": "Classic Statuario"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Concrete Grey.jpg",
+      "name": "Concrete Grey"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Concrete Light.jpg",
+      "name": "Concrete Light"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Crystal Clear.jpg",
+      "name": "Crystal Clear"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Crystal Ice.jpg",
+      "name": "Crystal Ice"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Defense.jpg",
+      "name": "Defense"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Extra Statuario.jpg",
+      "name": "Extra Statuario"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Iconic Cipollino.jpg",
+      "name": "Iconic Cipollino"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Magellano.jpg",
+      "name": "Magellano"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Metal Corten.jpg",
+      "name": "Metal Corten"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Metal Dark.jpg",
+      "name": "Metal Dark"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Milan Stone.jpg",
+      "name": "Milan Stone"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Nero Marquinia.jpg",
+      "name": "Nero Marquinia"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Ocean Blue.jpg",
+      "name": "Ocean Blue"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Onyx White.jpg",
+      "name": "Onyx White"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Orobico Luxe.jpg",
+      "name": "Orobico Luxe"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Palladium Ivory.jpg",
+      "name": "Palladium Ivory"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Panda White.jpg",
+      "name": "Panda White"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Pietra Grey.jpg",
+      "name": "Pietra Grey"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Pigalle.jpg",
+      "name": "Pigalle"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Precious Sodalite.jpg",
+      "name": "Precious Sodalite"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Provencale.jpg",
+      "name": "Provencale"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Pulpis Brown.jpg",
+      "name": "Pulpis Brown"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Renoir.jpg",
+      "name": "Renoir"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Rosso Domus.jpg",
+      "name": "Rosso Domus"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Royal Peacock.jpg",
+      "name": "Royal Peacock"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Royal.jpg",
+      "name": "Royal"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Sahara Noir.jpg",
+      "name": "Sahara Noir"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Santos.jpg",
+      "name": "Santos"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Statuario Principe.jpg",
+      "name": "Statuario Principe"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Taj Mahal.jpg",
+      "name": "Taj Mahal"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Terazzo White.jpg",
+      "name": "Terazzo White"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Thunderstorm.jpg",
+      "name": "Thunderstorm"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Total Black.jpg",
+      "name": "Total Black"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Total Grey.jpg",
+      "name": "Total Grey"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Total White.jpg",
+      "name": "Total White"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Travertino Bianco.jpg",
+      "name": "Travertino Bianco"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Travertino Chiaro.jpg",
+      "name": "Travertino Chiaro"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Travertino Grey.jpg",
+      "name": "Travertino Grey"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Travertino Trilogy.jpg",
+      "name": "Travertino Trilogy"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Tundra Select.jpg",
+      "name": "Tundra Select"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/Verde France.jpg",
+      "name": "Verde France"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/İnfinity Taş Görselleri/White Macaubas.jpg",
+      "name": "White Macaubas"
+    }
+  ],
+  "maestro": [
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/101-AİDA.jpg",
+      "name": "101-AİDA"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/102-BOLERO.jpg",
+      "name": "102-BOLERO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/204 SONATA PLAKA GÖRSELİ.jpg",
+      "name": "204 SONATA PLAKA GÖRSELİ"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/207 GILDA PLAKA GÖRSELİ.jpg",
+      "name": "207 GILDA PLAKA GÖRSELİ"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/208 ISOLDE PLAKA GÖRSELİ.jpg",
+      "name": "208 ISOLDE PLAKA GÖRSELİ"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/301-BUTTERFLY.jpg",
+      "name": "301-BUTTERFLY"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/302- ATLANTIS.jpg",
+      "name": "302- ATLANTIS"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/303 - ELVIRA.jpg",
+      "name": "303 - ELVIRA"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/304-MOONLIGHT.jpg",
+      "name": "304-MOONLIGHT"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/305 NARDO.jpg",
+      "name": "305 NARDO"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/401-BOHEME.jpg",
+      "name": "401-BOHEME"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/407 TOSCA.jpg",
+      "name": "407 TOSCA"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/501-SPRING.jpg",
+      "name": "501-SPRING"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/502 FIGARO .jpg",
+      "name": "502 FIGARO "
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/503-OPUS.jpg",
+      "name": "503-OPUS"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/504-FORTUNA.jpg",
+      "name": "504-FORTUNA"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/505- WINTER.jpg",
+      "name": "505- WINTER"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/506-SERANADE.jpg",
+      "name": "506-SERANADE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/507-CARMEN.jpg",
+      "name": "507-CARMEN"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/508-DAPHNE.jpg",
+      "name": "508-DAPHNE"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/602 TROYA PLAKA GÖRSELİ.jpg",
+      "name": "602 TROYA PLAKA GÖRSELİ"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/604 AMORE PLAKA GÖRSELİ.jpg",
+      "name": "604 AMORE PLAKA GÖRSELİ"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/605 NORMA PLAKA GÖRSELİ.jpg",
+      "name": "605 NORMA PLAKA GÖRSELİ"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/703 ORPHEUS.jpg",
+      "name": "703 ORPHEUS"
+    },
+    {
+      "src": "ALTINDAL-KATALOG-HAZIR/Maestro Ürün Görselleri/ORPHEUS IŞIKLI.jpg",
+      "name": "ORPHEUS IŞIKLI"
+    }
+  ]
+}
